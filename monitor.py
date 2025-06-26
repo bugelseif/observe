@@ -22,7 +22,7 @@ def create_task(file_name):
 
     params = {"nome_arquivo": file_name}
     task = maestro.create_task(
-        activity_label="DadosBotCandidatos",
+        activity_label="label_primeiro_bot",
         parameters=params,
         test=True
     )
